@@ -31,7 +31,7 @@ class BatchQueue extends SystemQueue {
       $item->data = unserialize($item->data);
       return $item;
     }
-   
+   1231456 dvdv 'fv,' $item
     return FALSE;
   }
 
