@@ -31,6 +31,7 @@ class BatchQueue extends SystemQueue {
       $item->data = unserialize($item->data);
       return $item;
     }
+   
     return FALSE;
   }
 
